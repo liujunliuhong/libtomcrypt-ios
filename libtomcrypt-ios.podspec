@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
     s.ios.deployment_target      = '10.0'
     s.static_framework           = true
 
-    s.source_files = 'Submodules/libtomcrypt/src/**/*.{c,h}', 'Submodules/libtommath/*.{c,h}', 'include/*.h'
+    s.source_files = 'Submodules/libtomcrypt/src/**/*.{c,h}', 'Submodules/libtommath/*.{c,h}', 'include/*.h', 'include/*.swift'
     
     s.public_header_files = 'Submodules/libtomcrypt/src/headers/*.h'
     s.libraries = "c++"
