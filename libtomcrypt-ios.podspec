@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
     s.static_framework           = true
 
     s.source_files = 'Submodules/libtomcrypt/src/**/*.{c,h}', 'Submodules/libtommath/*.{c,h}', 'include/*.h'
+    
     s.public_header_files = 'Submodules/libtomcrypt/src/headers/*.h'
     s.libraries = "c++"
     s.pod_target_xcconfig = {
