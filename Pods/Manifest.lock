@@ -1,0 +1,16 @@
+PODS:
+  - libtomcrypt-ios (1.0.0)
+
+DEPENDENCIES:
+  - libtomcrypt-ios (from `libtomcrypt-ios.podspec`)
+
+EXTERNAL SOURCES:
+  libtomcrypt-ios:
+    :path: libtomcrypt-ios.podspec
+
+SPEC CHECKSUMS:
+  libtomcrypt-ios: 0641fa5b5a6f3a1dbad16c8a376202e5b6c2db01
+
+PODFILE CHECKSUM: cf55b415c3356ec0720e63f31e096e2ca3d33978
+
+COCOAPODS: 1.10.1

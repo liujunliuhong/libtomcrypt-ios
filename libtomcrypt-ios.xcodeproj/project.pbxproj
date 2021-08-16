@@ -3,12 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F6416FAA8C7E61C4162FCA7 /* Pods_libtomcrypt_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AAC7F909DCEAB5EE18304DE /* Pods_libtomcrypt_ios.framework */; };
+		BF664F4526C9F3A500C26AB2 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BF664F4426C9F3A500C26AB2 /* Test.m */; };
 		BF77A99F26C64F4B00CC4D60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF77A99E26C64F4B00CC4D60 /* AppDelegate.swift */; };
-		BF77A9A126C64F4B00CC4D60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF77A9A026C64F4B00CC4D60 /* SceneDelegate.swift */; };
 		BF77A9A326C64F4B00CC4D60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF77A9A226C64F4B00CC4D60 /* ViewController.swift */; };
 		BF77A9A626C64F4B00CC4D60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF77A9A426C64F4B00CC4D60 /* Main.storyboard */; };
 		BF77A9A826C64F4D00CC4D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF77A9A726C64F4D00CC4D60 /* Assets.xcassets */; };
@@ -16,14 +17,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3AAC7F909DCEAB5EE18304DE /* Pods_libtomcrypt_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libtomcrypt_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A094965F6B7E04DF1BC2F7D7 /* Pods-libtomcrypt-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libtomcrypt-ios.release.xcconfig"; path = "Target Support Files/Pods-libtomcrypt-ios/Pods-libtomcrypt-ios.release.xcconfig"; sourceTree = "<group>"; };
+		BF664F4226C9F3A500C26AB2 /* libtomcrypt-ios-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libtomcrypt-ios-Bridging-Header.h"; sourceTree = "<group>"; };
+		BF664F4326C9F3A500C26AB2 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		BF664F4426C9F3A500C26AB2 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		BF77A99B26C64F4B00CC4D60 /* libtomcrypt-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "libtomcrypt-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF77A99E26C64F4B00CC4D60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BF77A9A026C64F4B00CC4D60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BF77A9A226C64F4B00CC4D60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BF77A9A526C64F4B00CC4D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF77A9A726C64F4D00CC4D60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF77A9AA26C64F4D00CC4D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF77A9AC26C64F4D00CC4D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7D4069358C0B8030FA6CAF5 /* Pods-libtomcrypt-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libtomcrypt-ios.debug.xcconfig"; path = "Target Support Files/Pods-libtomcrypt-ios/Pods-libtomcrypt-ios.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F6416FAA8C7E61C4162FCA7 /* Pods_libtomcrypt_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		115A3E547E7E550C39DE7F4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AAC7F909DCEAB5EE18304DE /* Pods_libtomcrypt_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F8E94B81DF46BCD0A6F6356 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7D4069358C0B8030FA6CAF5 /* Pods-libtomcrypt-ios.debug.xcconfig */,
+				A094965F6B7E04DF1BC2F7D7 /* Pods-libtomcrypt-ios.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BF77A99226C64F4B00CC4D60 = {
 			isa = PBXGroup;
 			children = (
 				BF77A99D26C64F4B00CC4D60 /* libtomcrypt-ios */,
 				BF77A99C26C64F4B00CC4D60 /* Products */,
+				2F8E94B81DF46BCD0A6F6356 /* Pods */,
+				115A3E547E7E550C39DE7F4E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,12 +83,14 @@
 			isa = PBXGroup;
 			children = (
 				BF77A99E26C64F4B00CC4D60 /* AppDelegate.swift */,
-				BF77A9A026C64F4B00CC4D60 /* SceneDelegate.swift */,
 				BF77A9A226C64F4B00CC4D60 /* ViewController.swift */,
+				BF664F4326C9F3A500C26AB2 /* Test.h */,
+				BF664F4426C9F3A500C26AB2 /* Test.m */,
 				BF77A9A426C64F4B00CC4D60 /* Main.storyboard */,
 				BF77A9A726C64F4D00CC4D60 /* Assets.xcassets */,
 				BF77A9A926C64F4D00CC4D60 /* LaunchScreen.storyboard */,
 				BF77A9AC26C64F4D00CC4D60 /* Info.plist */,
+				BF664F4226C9F3A500C26AB2 /* libtomcrypt-ios-Bridging-Header.h */,
 			);
 			path = "libtomcrypt-ios";
 			sourceTree = "<group>";
@@ -74,6 +102,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF77A9AF26C64F4D00CC4D60 /* Build configuration list for PBXNativeTarget "libtomcrypt-ios" */;
 			buildPhases = (
+				16DCE7109FB4D80EDEA30A10 /* [CP] Check Pods Manifest.lock */,
 				BF77A99726C64F4B00CC4D60 /* Sources */,
 				BF77A99826C64F4B00CC4D60 /* Frameworks */,
 				BF77A99926C64F4B00CC4D60 /* Resources */,
@@ -98,6 +127,7 @@
 				TargetAttributes = {
 					BF77A99A26C64F4B00CC4D60 = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -132,14 +162,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16DCE7109FB4D80EDEA30A10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-libtomcrypt-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF77A99726C64F4B00CC4D60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF664F4526C9F3A500C26AB2 /* Test.m in Sources */,
 				BF77A9A326C64F4B00CC4D60 /* ViewController.swift in Sources */,
 				BF77A99F26C64F4B00CC4D60 /* AppDelegate.swift in Sources */,
-				BF77A9A126C64F4B00CC4D60 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,10 +338,14 @@
 		};
 		BF77A9B026C64F4D00CC4D60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7D4069358C0B8030FA6CAF5 /* Pods-libtomcrypt-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2E8NVCJR97;
 				INFOPLIST_FILE = "libtomcrypt-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -294,6 +353,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.galaxy.libtomcrypt-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "libtomcrypt-ios/libtomcrypt-ios-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,10 +363,14 @@
 		};
 		BF77A9B126C64F4D00CC4D60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A094965F6B7E04DF1BC2F7D7 /* Pods-libtomcrypt-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2E8NVCJR97;
 				INFOPLIST_FILE = "libtomcrypt-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -312,6 +378,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.galaxy.libtomcrypt-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "libtomcrypt-ios/libtomcrypt-ios-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

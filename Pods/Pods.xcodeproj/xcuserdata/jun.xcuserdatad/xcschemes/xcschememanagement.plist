@@ -4,24 +4,18 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>libtomcrypt-ios.xcscheme_^#shared#^_</key>
+		<key>Pods-libtomcrypt-ios.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>libtomcrypt_aaaa.xcscheme_^#shared#^_</key>
+		<key>libtomcrypt-ios.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>BF77A99A26C64F4B00CC4D60</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>
