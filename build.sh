@@ -3,26 +3,14 @@
 
 echo "===============================Start======================================"
 
-rm -rf Submodules/libtomcrypt
-rm -rf Submodules
-rm -rf .gitmodules
-touch .gitmodules
+rm -rf libtomcrypt
+rm -rf libtommath
 
-cat >.gitmodules <<EOF
-[submodule "Submodules/libtomcrypt"]
-	path = Submodules/libtomcrypt
-	url = https://github.com/libtom/libtomcrypt.git
-
-[submodule "libtommath"]
-	path = Submodules/libtommath
-	url = https://github.com/libtom/libtommath.git
-EOF
-
-git submodule init
-git submodule update
+git clone https://github.com/libtom/libtomcrypt.git
+git clone https://github.com/libtom/libtommath.git
 
 
-rm -rf Submodules/libtomcrypt/.git
-rm -rf Submodules/libtommath/.git
+rm -rf libtomcrypt/.git
+rm -rf libtommath/.git
 
 echo "===============================End================================"

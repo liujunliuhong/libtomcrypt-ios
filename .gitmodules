@@ -1,7 +1,0 @@
-[submodule "Submodules/libtomcrypt"]
-	path = Submodules/libtomcrypt
-	url = https://github.com/libtom/libtomcrypt.git
-
-[submodule "libtommath"]
-	path = Submodules/libtommath
-	url = https://github.com/libtom/libtommath.git
