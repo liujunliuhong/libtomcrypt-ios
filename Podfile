@@ -4,7 +4,7 @@ target 'libtomcrypt-ios' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
- pod 'libtomcrypt-ios', :path => 'libtomcrypt-ios.podspec'
+#  pod 'libtomcrypt-ios', :path => 'libtomcrypt-ios.podspec'
 
   # Pods for libtomcrypt-ios
 

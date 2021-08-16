@@ -22,4 +22,7 @@ git submodule init
 git submodule update
 
 
+rm -rf Submodules/libtomcrypt/.git
+rm -rf Submodules/libtommath/.git
+
 echo "===============================End================================"
